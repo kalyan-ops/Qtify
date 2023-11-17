@@ -5,7 +5,7 @@ import Button from './components/Button/Button';
 function App() {
   return (
  <>
- <Button/>
+ <Button children={hello}/>
  </>
   );
 }
