@@ -10,7 +10,7 @@ const Navbar=()=>{
    <a href="/">
    <Logo/>
    </a>
-    <Search placeholder="search your song of your Choice"/>
+    <Search placeholder='Search a song of your choice'/>
     <Button>Give Feedback</Button>
 </nav>
     )
