@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import Button from './components/Button/Button';
+import Navbar from "./components/Navbar/Navbar"
 
 function App() {
   return (
  <>
- <Button children={"hello"}/>
+<Navbar/>
  </>
   );
 }
