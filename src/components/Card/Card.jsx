@@ -7,9 +7,9 @@ const Card=({data,type})=>{
     const getCard=()=>{
         switch(type){
             case "album":{
-                const {image,follows,title,slug}=data;
+                const {image,follows,songs,title,slug}=data;
                 return(
-                    <Tooltip title='hi' placement='top' arrow>hello
+                    <Tooltip title={`${songs} songs`} placement='top' arrow>hello
                         <a href={`/album/${slug}`}>
                             <div className={styles.wrapper}>
                                 <div className={styles.card}>
@@ -51,10 +51,7 @@ const Card=({data,type})=>{
                 )
             }
             default:
-                return (
-                    <div>
-                    </div>
-                  );
+                return <></>
         }
     }
     return getCard(type)
