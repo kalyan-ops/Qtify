@@ -10,7 +10,6 @@ export default function Section({ title, type, data }) {
   const handleToogle = () => {
     setCarouselToggle((prevState) => !prevState);
   };
-
   return (
     <div>
       <div className={styles.header}>

@@ -4,6 +4,7 @@ import { Tooltip, Chip } from '@mui/material'
 
 
 const Card=({data,type})=>{
+    
     const getCard=()=>{
         switch(type){
             case "album":{

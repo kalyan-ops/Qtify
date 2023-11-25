@@ -20,7 +20,6 @@ function App() {
     generateData("newAlbums",fetchNewAlbums);
   },[]);
   const { topAlbums = [],newAlbums = [] }=data;  
-  console.log("data", data)
   return (
  <>
  <StyledEngineProvider injectFirst >
