@@ -15,7 +15,7 @@ useEffect(()=>{
  
 return(
     <div className={styles.rightNavigation}>
-        {!isEnd && <RightArrow onClick={()=>swiper.slideNext()}/>}
+        {!isEnd && <img src={RightArrow} onClick={()=>swiper.slideNext()}/>}
 
     </div>
 );

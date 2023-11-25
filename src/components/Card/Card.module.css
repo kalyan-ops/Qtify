@@ -1,5 +1,6 @@
 .wrapper{
     width: 160px;
+    color: var(--color-white);
 }
 .card{
     position: relative;
@@ -26,6 +27,7 @@
     width: max-content;
     padding: 6px;
     border-radius: 10px;
+    color: var(--color-white);
 }
 .titleWrapper{
     margin-top: 6px;
@@ -34,6 +36,7 @@
     -webkit-line-clamp: 2;
     display: -webkit-box;
     -webkit-box-orient: vertical;
+
 }
 
 .chip{

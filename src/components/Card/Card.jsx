@@ -9,8 +9,10 @@ const Card=({data,type})=>{
         switch(type){
             case "album":{
                 const {image,follows,songs,title,slug}=data;
+                console.log(songs);
                 return(
-                    <Tooltip title={`${songs} songs`} placement='top' arrow>hello
+                    
+                    <Tooltip title={`${songs.length} songs`} placement='top' arrow>
                         <a href={`/album/${slug}`}>
                             <div className={styles.wrapper}>
                                 <div className={styles.card}>
@@ -19,7 +21,7 @@ const Card=({data,type})=>{
                                         <Chip
                                         label={`${follows} Follows`}
                                         size='small'
-                                        className=''
+                                        className={styles.pill}
                                         />
                                     </div>
                                 </div>
