@@ -16,3 +16,6 @@
     gap: 40px;
     flex-wrap: wrap;
 }
+.filterWrapper{
+    margin-top: 15px;
+}
