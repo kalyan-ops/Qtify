@@ -10,7 +10,7 @@ const Card=({data,type})=>{
         switch(type){
             case "album":{
                 const {image,follows,songs,title,slug}=data;
-                console.log(songs);
+              
                 return(
                     
                     <Tooltip title={`${songs.length} songs`} placement='top' arrow>
